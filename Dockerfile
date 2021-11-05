@@ -21,7 +21,7 @@ RUN set -x \
         pkgconfig \
         zeromq-dev \
         musl-dev \
-    && pip3 install --upgrade pip==9.0.3 \
+    && pip3 install --upgrade pip\
     && ln -s /usr/bin/python3.6 /usr/bin/python \
     ## install Go
     && apk --update-cache --allow-untrusted \
